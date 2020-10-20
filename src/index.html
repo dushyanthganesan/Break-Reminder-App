@@ -1,12 +1,21 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="render.js"></script>
+</head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <h4 class="title">Take a break! It's probably best to stretch a little.</h4>
+    <p class="title"></p>
+    <main>
+        <form class="skip-button">
+            <button id="skip" type = "button">
+                Skip this break
+            </button>
+        </form>
+    </main>
   </body>
 </html>

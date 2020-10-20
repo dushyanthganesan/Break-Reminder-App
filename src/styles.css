@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  margin-top: 20%;
+
+}
+
+.title {
+    text-align: center;
+    color: lightgray;
+    
+}
+
+.skip-button {
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    padding: 10%; 
+}
